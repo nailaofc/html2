@@ -207,7 +207,7 @@ body {
 
 .menu .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-top: 5rem;
   justify-content: center;
 }
@@ -217,7 +217,7 @@ body {
   padding-bottom: 4rem;
 }
 
-.menu .row .menu-card img {
+.menu .row .menu-card #foto-produk {
   border-radius: 50%;
   width: 80%;
 }
