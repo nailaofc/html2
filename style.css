@@ -87,6 +87,18 @@ body {
   display: none;
 }
 
+/* nav search form */
+.navbar .search-form {
+position: absolute;
+top: 100%;
+right: 100%;
+background-color: #fff;
+width: 50rem;
+height: 5rem;
+display: flex;
+align-items: center;
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
