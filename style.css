@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 7%;
+  padding: 1.2rem 7%;
   background-color: rgba(1, 1, 1, 0.8);
   border-bottom: 1px solid #513c28;
   position: fixed;
@@ -39,14 +39,14 @@ body {
 }
 
 .navbar .navbar-logo {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  color: #fff;
+  color: #d9a91a;
   font-style: italic;
 }
 
 .navbar .navbar-logo span {
-  color: var(--primary);
+  color: #fff;
 }
 
 .navbar .navbar-nav a {
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: var(--primary);
+  color: #d9a91a;
 }
 
 .navbar .navbar-nav a::after {
@@ -88,14 +88,14 @@ body {
 
 /* nav search form */
 .navbar .search-form {
-position: absolute;
-top: 100%;
-right: 100%;
-background-color: #fff;
-width: 50rem;
-height: 5rem;
-display: flex;
-align-items: center;
+  position: absolute;
+  top: 100%;
+  right: 100%;
+  background-color: #fff;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
 
 /* Hero Section */
@@ -103,7 +103,7 @@ align-items: center;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("img/bg.jpeg");
+  background-image: url("img/tes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -117,11 +117,7 @@ align-items: center;
   width: 100%;
   height: 40%;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgba(1, 1, 3, 1) 3%,
-    rgba(255, 255, 255, 0) 25%
-  );
+  background: linear-gradient(0deg, #f3e5ab #f3e5ab);
 }
 
 .hero .content {
@@ -131,13 +127,13 @@ align-items: center;
 
 .hero .content h1 {
   font-size: 5em;
-  color: #fff;
+  color: #000000;
   text-shadow: 1px 1px 1px 3px rgba(1, 1, 3, 0.5);
   list-style: 1.2;
 }
 
 .hero .content h1 span {
-  color: var(--primary);
+  color: #d9a91a;
 }
 
 .hero .content p {
@@ -155,7 +151,7 @@ align-items: center;
   padding: 1rem 3rem;
   font-size: 1.4rem;
   color: #fff;
-  background-color: var(--primary);
+  background-color: #d9a91a;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
@@ -165,6 +161,7 @@ align-items: center;
 .menu,
 .contact {
   padding: 8rem 7% 1.4rem;
+  background-color: #f3e5ab;
 }
 
 .about h2,
