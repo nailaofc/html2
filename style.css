@@ -161,21 +161,23 @@ body {
 .menu,
 .contact {
   padding: 8rem 7% 1.4rem;
-  background-color: #f3e5ab;
+  background-color: #ffffff;
 }
 
 .about h2,
 .menu h2,
+.menu p,
 .contact h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
+  color: #d9a91a;
 }
 
 .about h2 span,
 .menu h2 span,
 .contact h2 span {
-  color: var(--primary);
+  color: #000000;
 }
 
 .about .row {
@@ -188,6 +190,7 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  height: 95%;
 }
 
 .about .row .content {
@@ -198,13 +201,20 @@ body {
 .about .row .content h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  color: #d9a91a;
 }
 
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
-  font-weight: 100;
+  font-weight: 1000; 
   line-height: 1.6rem;
+  line-height: 2;
+}
+
+.about p,
+.menu p {
+  color: #000000;
 }
 
 /* Menu Section */
@@ -228,15 +238,24 @@ body {
 
 .menu .row .menu-card .menu-card-title {
   margin-top: 1rem auto 0.5rem;
+  color: #000000;
 }
 
-.menu p,
+.menu p {
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+  font-weight: 1000; 
+  line-height: 1.6rem;
+  line-height: 2;
+}
+
 .contact p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
   font-weight: 100;
   line-height: 1.6rem;
+  color: #000000;
 }
 
 /* Contact Section */
@@ -285,6 +304,7 @@ body {
   background-color: var(--primary);
   cursor: pointer;
 }
+
 
 /* Footer */
 footer {
