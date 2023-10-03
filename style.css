@@ -21,7 +21,6 @@ body {
   font-family: "poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
- 
 }
 
 /* Navbar */
@@ -200,8 +199,26 @@ body {
 }
 
 /* Menu Section */
-.menu h2 {
-  margin-bottom: 1rem;
+.menu .row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+  width: 25%;
+}
+
+.menu .row .menu-card img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.menu .row .menu-card .menu-card-title {
+  margin-top: 1rem auto 0.5rem;
 }
 
 .menu p,
@@ -213,28 +230,7 @@ body {
   line-height: 1.6rem;
 }
 
-.menu .row {
-  display: flex;
-  flex-wrap: nowrap;
-  margin-top: 5rem;
-  justify-content: center;
-}
-
-.menu .row .menu-card {
-  text-align: center;
-  padding-bottom: 4rem;
-}
-
-.menu .row .menu-card #foto-produk {
-  border-radius: 50%;
-  width: 80%;
-}
-
-.menu .row .menu-card .menu-card-title {
-  margin: 1rem auto 0.5rem;
-}
-
-/* Contact section */
+/* Contact Section */
 .contact .row {
   display: flex;
   margin-top: 2rem;
@@ -281,7 +277,6 @@ body {
   cursor: pointer;
 }
 
-
 /* Footer */
 footer {
   background-color: var(--primary);
@@ -292,7 +287,6 @@ footer {
 
 footer .socials {
   padding: 1rem 0;
-
 }
 
 footer .socials a {
@@ -307,22 +301,22 @@ footer .links a:hover {
 
 footer .links a {
   color: #fff;
-  padding:0.7rem 1rem;
+  padding: 0.7rem 1rem;
 }
 
-footer .links a{
+footer .links a {
   margin-bottom: 1.4rem;
-
 }
 
 footer .credit {
   font-size: 0.8rem;
 }
 
-footer .credit a{
+footer .credit a {
   color: var(--bg);
   font-weight: 700;
 }
+
 /* Media Queris */
 
 /* Laptop */
