@@ -182,7 +182,7 @@ body {
 .about,
 .menu,
 .contact,
-.products {
+.product {
   padding: 8rem 7% 1.4rem;
   background-color: #ffffff;
 }
@@ -191,7 +191,7 @@ body {
 .menu h2,
 .menu p,
 .contact h2,
-.products h2 {
+.product h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -201,7 +201,7 @@ body {
 .about h2 span,
 .menu h2 span,
 .contact h2 span,
-.products h2 span {
+.product h2 span {
   color: #000000;
 }
 
