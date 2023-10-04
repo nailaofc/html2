@@ -1,198 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D'Luxury</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>D'Luxury</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
-    rel="stylesheet" />
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
 
-  <!-- Icons -->
-  <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- Css -->
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Luxury<span>Style</span>.</a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
 
-<body>
-  <!-- Navbar Start -->
-  <nav class="navbar">
-    <a href="#" class="navbar-logo">Luxury<span>Style</span>.</a>
-    <div class="navbar-nav">
-      <a href="#">Home</a>
-      <a href="#about">About</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Kontak</a>
-    </div>
-    <div class="navbar-extra">
-      <a href="#" id="search"><i data-feather="search"></i></a>
-      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
-      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-    </div>
-  </nav>
-  <!-- Navbar End -->
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+    </nav>
+    <!-- Navbar End -->
 
-  <!-- Hero Section Start-->
-  <section class="hero" id="Home">
-    <main class="content">
-      <h1>Welcome To <span>Luxury</span>Style</h1>
+    <!-- Hero Section Start-->
+    <section class="hero" id="Home">
+      <main class="content">
+        <h1>Welcome To <span>Luxury</span>Style</h1>
+        <p>
+          Butik ini berdiri pada tahun 1888, dan menjual berbagai style kekinian
+          gaya wanita. Kamu akan menemukan hal menarik disini!
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <link rel="stylesheet" href="style.css" />
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img id="foto-produk" src="/img/tentangkami.png" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Butik Kami?</h3>
+          <p align="justify">
+            "Selamat datang di LuxuryStyle tempat utama untuk gaya wanita! Kami
+            menghadirkan koleksi baju wanita yang eksklusif dan terkini untuk
+            menemani gaya hidup anda, dengan berbagai pilihan dari gaya kasual
+            hingga elegan dan menggunakan bahan yang berkualitas tinggi.
+          </p>
+          <p align="justify">
+            Kami selalu memperbarui koleksi kami untuk memastikan anda selalu
+            tampil fashionable, tim kami selalu siap untuk membantu anda dalam
+            menemukan pilihan dan memberikan saran mode terbaik. Kami juga
+            menawarkan pengiriman cepat dan pilihan pembayaran yang nyaman.
+            Terimakasih telah memilih (nama toko) sebagai tujuan anda, dan kami
+            harap anda menikmati berbelanja di toko online kami!"
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <link rel="stylesheet" href="style.css" />
+    <section id="menu" class="menu">
+      <h2><span>Produk</span> Kami</h2>
+      <p>Ini ada beberapa koleksi dress dari butik LuxuryStyle</p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/2.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/3.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/4.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/5.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/6.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/7.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/8.jpg" alt="Baju" class="menu-card-img" />
+          <h3 class="menu-card-title">-Baju-</h3>
+          <p class="menu-card-price">IDR 100K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Product Section Start -->
+    <section class="section product" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
       <p>
-        Butik ini berdiri pada tahun 1888, dan menjual berbagai style kekinian gaya wanita. Kamu akan menemukan hal
-        menarik
-        disini!
-
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos pariatur
+        mollitia fuga doloremque, voluptates qui?
       </p>
-      <a href="#" class="cta">Beli Sekarang</a>
-    </main>
-  </section>
-  <!-- Hero Section End -->
+    </section>
+    <!-- Product Section End -->
 
-  <!-- About Section Start -->
-  <link rel="stylesheet" href="style.css" />
-  <section id="about" class="about">
-    <h2><span>Tentang</span> Kami</h2>
-    <div class="row">
-      <div class="about-img">
-        <img id="foto-produk" src="/img/tentangkami.png" alt="Tentang Kami" />
+    <!--  Contact Start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Jika anda mengalami kendala atau ingin memberi saran silahkan isi forum
+        dibawah ini
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026736.138875535!2d107.22666057755542!3d-7.187200566398557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2! 1s0x2e7a577101d240f5%3A0x90bf121c194f9c81!2zRHV0YSBBbmRhbGFzKOqmo-qmuOqmoOqmhOqmpOqngOqmneqmreqmseqngCk!5e0!3m2!1sid!2sid!4v1695961391724!5m2!1sid!2sid"
+          allowfullscreen="true"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" />
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
       </div>
-      <div class="content">
-        <h3>Kenapa Memilih Butik Kami?</h3>
-        <p align="justify">
-          "Selamat datang di LuxuryStyle tempat utama untuk gaya wanita! Kami menghadirkan koleksi baju wanita yang
-           eksklusif dan terkini untuk menemani gaya hidup anda, dengan berbagai pilihan dari gaya kasual hingga 
-           elegan dan menggunakan bahan yang berkualitas tinggi. 
-        </p>
-        <p align="justify">
-          Kami selalu memperbarui koleksi kami untuk memastikan anda selalu tampil fashionable, tim kami selalu siap untuk 
-          membantu anda dalam  menemukan pilihan dan memberikan saran mode terbaik.
-           Kami juga menawarkan pengiriman cepat dan pilihan pembayaran yang nyaman. 
-           Terimakasih telah memilih (nama toko) sebagai tujuan anda, dan kami harap anda menikmati berbelanja di toko online kami!"
-        </p>
+    </section>
+    <!--  Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="phone"></i></a>
       </div>
-    </div>
-  </section>
-  <!-- About Section End -->
 
-  <!-- Menu Section Start -->
-  <link rel="stylesheet" href="style.css" />
-  <section id="menu" class="menu">
-    <h2><span>Produk</span> Kami</h2>
-    <p>Ini ada beberapa koleksi dress dari butik LuxuryStyle</p>
-    <div class="row">
-      <div class="menu-card">
-        <img src="img/1.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
+      <div class="links">
+        <a href="#Home"> Home </a>
+        <a href="#about"> About </a>
+        <a href="#menu"> Menu </a>
+        <a href="#contact"> Kontak </a>
       </div>
-      <div class="menu-card">
-        <img src="img/2.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
+
+      <div class="credit">
+        <p>Created By <a href=""> NNF</a> |&copy2023</p>
       </div>
-      <div class="menu-card">
-        <img src="img/3.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
-      </div>
-      <div class="menu-card">
-        <img src="img/4.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="menu-card">
-        <img src="img/5.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
-      </div>
-      <div class="menu-card">
-        <img src="img/6.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
-      </div>
-      <div class="menu-card">
-        <img src="img/7.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
-      </div>
-      <div class="menu-card">
-        <img src="img/8.jpg" alt="Baju" class="menu-card-img" />
-        <h3 class="menu-card-title">-Baju-</h3>
-        <p class="menu-card-price">IDR 100K</p>
-      </div>
-    </div>
-  </section>
-  <!-- Menu Section End -->
+    </footer>
+    <!-- Footer End-->
 
-  <!--  Contact Start -->
-  <section id="contact" class="contact">
-    <h2><span>Kontak</span> Kami</h2>
-    <p>
-      Jika anda mengalami kendala atau ingin memberi saran silahkan isi forum dibawah ini
-    </p>
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
 
-    <div class="row">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026736.138875535!2d107.22666057755542!3d-7.187200566398557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2! 1s0x2e7a577101d240f5%3A0x90bf121c194f9c81!2zRHV0YSBBbmRhbGFzKOqmo-qmuOqmoOqmhOqmpOqngOqmneqmreqmseqngCk!5e0!3m2!1sid!2sid!4v1695961391724!5m2!1sid!2sid"
-        allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-
-      <form action="">
-        <div class="input-group">
-          <i data-feather="user"></i>
-          <input type="text" placeholder="Nama" />
-        </div>
-
-        <div class="input-group">
-          <i data-feather="mail"></i>
-          <input type="text" placeholder="Email" />
-        </div>
-
-        <div class="input-group">
-          <i data-feather="phone"></i>
-          <input type="text" placeholder="No Hp" />
-        </div>
-
-        <button type="submit" class="btn">Kirim Pesan</button>
-      </form>
-    </div>
-  </section>
-  <!--  Contact End -->
-
-  <!-- Footer Start -->
-  <footer>
-    <div class="socials">
-      <a href="#"><i data-feather="instagram"></i></a>
-      <a href="#"><i data-feather="twitter"></i></a>
-      <a href="#"><i data-feather="facebook"></i></a>
-      <a href="#"><i data-feather="phone"></i></a>
-    </div>
-
-    <div class="links">
-      <a href="#Home"> Home </a>
-      <a href="#about"> About </a>
-      <a href="#menu"> Menu </a>
-      <a href="#contact"> Kontak </a>
-    </div>
-
-    <div class="credit">
-      <p>Created By <a href=""> NNF</a> |&copy2023</p>
-    </div>
-  </footer>
-  <!-- Footer End-->
-
-  <!-- Icons -->
-  <script>
-    feather.replace();
-  </script>
-
-  <!-- Js -->
-  <script src="script.js"></script>
-</body>
-
+    <!-- Js -->
+    <script src="script.js"></script>
+  </body>
 </html>
